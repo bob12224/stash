@@ -94,6 +94,7 @@ export const DurationCriterionOption =
   createDurationCriterionOption("duration");
 
 const criterionOptions = [
+  createMandatoryNumberCriterionOption("id"),
   createStringCriterionOption("title"),
   createStringCriterionOption("code", "scene_code"),
   PathCriterionOption,
