@@ -63,6 +63,7 @@ const FrontPage = lazyComponent(
   () => import("./components/FrontPage/FrontPage")
 );
 const Scenes = lazyComponent(() => import("./components/Scenes/Scenes"));
+const Audios = lazyComponent(() => import("./components/Audios/Audios"));
 const Settings = lazyComponent(() => import("./components/Settings/Settings"));
 const Stats = lazyComponent(() => import("./components/Stats"));
 const Studios = lazyComponent(() => import("./components/Studios/Studios"));
@@ -253,6 +254,7 @@ export const App: React.FC = () => {
           <Switch>
             <Route exact path="/" component={FrontPage} />
             <Route path="/scenes" component={Scenes} />
+            <Route path="/audios" component={Audios} />
             <Route path="/images" component={Images} />
             <Route path="/galleries" component={Galleries} />
             <Route path="/performers" component={Performers} />

@@ -47,6 +47,7 @@ import { PatchComponent } from "src/patch";
 
 const allMenuItems = [
   { id: "scenes", headingID: "scenes" },
+  { id: "audio", headingID: "audios" },
   { id: "images", headingID: "images" },
   { id: "groups", headingID: "groups" },
   { id: "markers", headingID: "markers" },
